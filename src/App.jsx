@@ -1,5 +1,6 @@
 import React from 'react'
 import Saludo from '../components/Saludo.jsx'
+
 const App = () => {
   return (
     <div>
@@ -7,4 +8,5 @@ const App = () => {
     </div>
   )
 }
+
 export default App

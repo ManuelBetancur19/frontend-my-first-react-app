@@ -1,14 +1,14 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
-const saludo = () => {
+const Saludo = () => {
     const [nombreP, setNomberP] = useState("");
     const [mostrarSaludo, setMostrarSaludo] = useState(false);
     const handleAceptar = () => {
-        setMostrarSaludo(true)
-    };
+        setMostrarSaludo(true);
+    }
     return (
         <section>
-            <label htmlFor="nombre">Nombre:</label>
+            <label htmlFor="nombre">Nombre: </label>
             <input type="text" 
             id="nombre" 
             value={nombreP}
@@ -19,4 +19,4 @@ const saludo = () => {
 
     );
 };
-export default saludo
+export default Saludo;
